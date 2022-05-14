@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -6,5 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>e20e5e8c-6ecd-41bb-abb3-e2daee4ed692</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="6.0.5" />
+  </ItemGroup>
 
 </Project>
